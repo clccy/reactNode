@@ -1,37 +1,5 @@
 import React, { Component } from 'react';
 import {Link,IndexLink} from 'react-router'
-// import './App.css'
-
-// class Home extends Component {
-//
-//     constructor(props) {
-//         super(props);
-//         this.state = {
-//             posts: []
-//         };
-//     }
-//
-//     componentDidMount() {
-//         axios.get('/api/v1/topology/world-topo')
-//             .then(res => {
-//                 const posts = res.data.data.children.map(obj => obj.data);
-//                 this.setState({ posts });
-//             });
-//     }
-//
-//     render () {
-//         return (
-//             <div>
-//               <h3>数据节点列表</h3>
-//               <ul>
-//                   {this.state.posts.map(post =>
-//                       <li >{post.code}</li>
-//                   )}
-//               </ul>
-//             </div>
-//         )
-//     }
-// }
 
 
 class App extends Component {

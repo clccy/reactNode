@@ -11,6 +11,9 @@ import Textrouter from 'router/index'
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
+app.get('/', function (req, res) {
+    res.send('Hello World!');
+});
 import * as apiMethods from './api/index'
 app.get('/api/v1/topology/world-topo', apiMethods.getTopologyTrials);
 
@@ -46,4 +49,4 @@ app.get('*', (req, res) => {
         }
     );
 });
-app.listen(3000);
+app.listen(4000);
